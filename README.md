@@ -11,7 +11,7 @@ The pipeline follows a robust logic flow to ensure that only "clean" data reachi
    - **Reference Lookup:** Performing memory-efficient lookups against `dim_imsi_reference` to associate transactions with subscribers.
 3. **Loading:** - **Fact Load:** Validated data is pushed to `fact_transaction`.
    - **Error Redirection:** Any row failing date conversion or containing nulls is redirected via a **Union All** transformation into a dedicated `error_destination_output` table for auditing.
-
+![ETL Data Flow](./images/data_flow.png) 
 ## 🛠️ Tech Stack
 - **ETL Tool:** SQL Server Integration Services (SSIS)
 - **Database:** Microsoft SQL Server (T-SQL)
