@@ -1,0 +1,5 @@
+*.user
+*.suo
+*.dtproj.user
+obj/
+bin/

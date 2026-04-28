@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.SSIS_Telecom_DB"
+  DTS:DTSID="{C767FBEC-5924-45B8-B042-85FB65C5279D}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=SSIS_Telecom_DB;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Trust Server Certificate=True;Application Name=SSIS-telecom_project-{C767FBEC-5924-45B8-B042-85FB65C5279D}localhost.SSIS_Telecom_DB;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
